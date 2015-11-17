@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-UARTAnyPin -I..\..\..\workspace\STM32F0-UARTAnyPin\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F0-UARTAnyPin\cmsis_core -I..\..\..\workspace\STM32F0-UARTAnyPin\stm32_lib -I..\..\..\workspace\STM32F0-UARTAnyPin\stm32_lib\inc">
+      <target file="stm32f0xx_syscfg.o" lastModified="151134cba1f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="15112c35ee8"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="151134cb391">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="15112c34f7b"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="151134caebc">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="15112c34f91"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="151134cb55c">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="15112c364b1"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="151134cbb90">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="15112c42faa"/>
+      </target>
+      <target file="main.o" lastModified="151135425d6">
+         <source file="..\..\..\main.c" lastModified="15113540e4c"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="151134cb76f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="15112c494b7"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="151134cb0c1">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="151133b7635"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="151134cb8c5">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="15112c355ca"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="151134cb222">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="15112c34fa2"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-UARTAnyPin.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-UARTAnyPin -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-UARTAnyPin/arm-gcc-link.ld -g">
+      <target file="STM32F0-UARTAnyPin.elf" lastModified="151135429ff">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="151134caebc"/>
+         <source file="..\obj\main.o" lastModified="151135425d6"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="151134cb0c1"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="151134cb222"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="151134cb391"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="151134cb55c"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="151134cb76f"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="151134cb8c5"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="151134cba1f"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="151134cbb90"/>
+      </target>
+   </processor>
+</history>
